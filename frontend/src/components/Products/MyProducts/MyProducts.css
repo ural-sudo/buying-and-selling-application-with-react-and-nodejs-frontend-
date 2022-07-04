@@ -1,0 +1,38 @@
+
+.product-list{
+    height: auto;
+    border: 1px solid rgb(175, 172, 172);
+    width: 100%;
+    max-width: 70%;
+    margin: 0px auto;
+    margin-top: 200px ;
+    margin-bottom: 100px ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: 100;
+    width: 1000vh;
+    height: 1000vw;
+    background: rgba(0, 0, 0, 0.5);
+}
+.add-new-product{
+    width: 100%;
+    text-align: center;
+}
+.add-new-product button{
+    padding: 8px;
+    background: transparent;
+    font-weight: bold;
+    border: 1px solid rgb(162, 161, 161);
+    border-radius: 10px;
+}
+.add-new-product button:hover{
+    background: #5dff68d5;
+    cursor: pointer;
+}

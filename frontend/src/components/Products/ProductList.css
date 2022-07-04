@@ -1,0 +1,19 @@
+
+.container-list{
+    box-sizing: border-box;
+    height: auto;
+    border: .5px solid rgb(192, 190, 190);
+    width: 100%;
+    max-width: 65%;
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 3px 3px 3px 3px rgba(130, 128, 128, 0.33);
+    border-radius: 10px;
+    padding: calc(100% - 98.7%);
+    display: grid;
+    gap: 10px;
+    column-gap: 6px;
+    grid-template-columns:repeat(4, 24.6%);
+    grid-template-rows: auto;
+    margin-bottom: 100px;
+}

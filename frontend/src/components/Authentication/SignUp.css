@@ -1,0 +1,103 @@
+
+.auth-form{
+    background:#fff9fb;
+    border: .1px solid #c9c9c9;
+    margin: 150px auto;
+    width: 97%;
+    max-width: 30rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px 10px rgba(114, 114, 114, 0.2);
+}
+.success{
+    color:white;
+    background:#4ae24a;
+    width:50%;
+    margin:auto;
+    padding:.5rem;
+    border-radius:10px
+}
+.failed{
+    color:white;
+    background:#d10808c1;
+    width:50%;
+    margin:auto;
+    padding:.5rem;
+    border-radius:10px
+}
+.auth-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.auth-form__item label{
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+    font-size: 18px;
+    color: #454444;
+}
+.auth-form__item input{
+    width: 350px;
+    padding: .6rem;
+    border-radius: 6px;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #8d8a8b;
+}
+.auth-form__item input:hover{
+    border: 0.5px solid #FF1493;
+    box-shadow: 1px 1px 1px 1px #FF1493;
+}
+.auth-form__item input:focus{
+    outline: none;
+    border: 0.5px solid #FF1493;
+    box-shadow: 1px 1px 1px 1px #FF1493;
+}
+.auth-form__item button {
+    
+    color: #454444;
+    margin-top: 30px;
+    background-color: #d9d8d8;
+    padding: .7rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 10px;
+    
+}
+.disabled button{
+    color: #b1afaf;
+    margin-top: 30px;
+    background-color: #d9d8d8;
+    padding: .7rem;
+    font-weight: bold;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 10px;
+    cursor: not-allowed;
+}
+.auth-form__item button:hover{
+    color: white;
+    background: #FF1493;
+}
+
+.invalid input{
+    width: 350px;
+    padding: .6rem;
+    border-radius: 6px;
+    font-size: 17px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 0.5px solid #8d8a8b;
+    background-color: rgb(233, 173, 173);
+}
+.invalid label{
+    display: block;
+    margin-top: .5rem;
+    margin-bottom: .3rem;
+    font-size: 18px;
+    color: red;
+}
+

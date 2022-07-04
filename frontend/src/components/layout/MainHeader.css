@@ -1,0 +1,170 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 30px 16px;
+    width: 100%;
+    background: #FF1493;
+    border: 0.1px solid #FF1493; 
+    border-radius: 0px 0px 100px 100px;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 200px;
+    vertical-align: middle;
+}
+.main-header__brand{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+}
+.main-header__search{
+    display: inline-block;
+    margin-left: 50px;
+    border: .5px solid #a1a0a0;
+    background-color: white;
+    border-radius: 6px;
+}
+.main-header__search input{
+    padding: 0.4rem;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.main-header__search button{
+    padding: 0.4rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main-nav{
+    display: inline-block;
+    width: calc(100% - 900px);
+    text-align: right;
+    vertical-align: middle;  
+}
+.main-nav__list-item{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0px 12px;
+    margin-bottom: 5px;
+}
+
+.main-nav__list-item i{
+    display: block;
+    text-align: center;
+    font-size: 19px;
+    color:white;
+    cursor: pointer;
+}
+
+.main-nav__list-item a{
+    color: white;
+    text-decoration: none;
+}
+.main-nav__list-item a:hover{
+    color: #d3d1d1;
+    
+}
+.nav-avatar{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.list-item__logout{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.list-item__logout:hover{
+    color: #f1ebeb;
+} 
+
+.profile-modal{
+    position: fixed;
+    z-index: 300;
+    top: 15%;
+    left:calc(100% - 540px);
+    background: white;
+    border: .5px solid rgb(185, 185, 185);
+    padding: 1rem;
+    border-radius: 25px 0 25px 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 2px 2px rgba(185, 184, 184, 0.696)
+}
+.profile-modal__name{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.profile-modal__account label{
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+}
+.profile-modal__account a{
+    display: block;
+    margin-top: 10px;
+    color: #8d8c8c;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 100px;
+}
+.profile-modal__account a:hover{
+    text-decoration: underline;
+}
+.profile-modal__logout{
+    width: 100%;
+    text-align: center;
+    
+}
+.profile-modal__logout button{
+    width: 50%;
+    padding: .2rem;
+    border-radius: 10px;
+    border: .5px solid rgb(168, 167, 167);
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+.profile-modal__logout button:hover{
+    color: white;
+    background: #FF1493;
+}
+.underline{
+    margin: 10px 0;
+    border: 0.5px solid black;
+    border-color: #a1a0a0;
+    width: 100%;
+}
+.bildirim{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid rgb(253, 177, 35);
+    position: fixed;
+    top:26px;
+    right: 472px;
+    font-size: 10px;
+    align-items: center;
+    color: white;
+    background: rgb(248, 177, 47);
+}
